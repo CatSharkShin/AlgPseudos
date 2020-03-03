@@ -1,2 +1,9 @@
 Fekete doboz: Olyan fv amit nem ismerünk(működés)
 Fehér doboz: Ismerjük a működését
+Fv Szétválogat(l:sorozat,igazsorozat,hamissorozat)
+  Output: logikai
+  Változók: i: egész
+Algoritmus
+  i : 0
+  Ciklus(1...l.MaxElem)
+    
