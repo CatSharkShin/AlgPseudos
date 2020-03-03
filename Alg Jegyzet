@@ -5,5 +5,16 @@ Fv Szétválogat(l:sorozat,igazsorozat,hamissorozat)
   Változók: i: egész
 Algoritmus
   i : 0
-  Ciklus(1...l.MaxElem)
-    
+  j : 0
+  k : 0
+  Ciklus(i : 0...l.MaxElem)
+    Ha(T(l[i]))
+      igazsorozat[j] = l[i]
+      j = j + 1
+    Különben
+      hamissorozat[k] = l[i]
+      k = k + 1
+  C.V
+Folyamatabra: https://drive.google.com/file/d/1-5C3W0H5MDjwRTHeSZlgf4BfuFIwnYsz/view
+  
+      
