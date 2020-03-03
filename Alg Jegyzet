@@ -1,7 +1,8 @@
 Fekete doboz: Olyan fv amit nem ismerünk(működés)
 Fehér doboz: Ismerjük a működését
+# SZÉTVÁLOGATÁS KÉTSOROZATBA PSZEUDO KÓD
 Fv Szétválogat(l:sorozat,igazsorozat,hamissorozat)
-  Output: logikai
+  Output: egész
   Változók: i: egész
 Algoritmus
   i : 0
@@ -11,10 +12,31 @@ Algoritmus
     Ha(T(l[i]))
       igazsorozat[j] = l[i]
       j = j + 1
+      db = db + 1
     Különben
       hamissorozat[k] = l[i]
       k = k + 1
   C.V
+  Szétválogat <- db
 Folyamatabra: https://drive.google.com/file/d/1-5C3W0H5MDjwRTHeSZlgf4BfuFIwnYsz/view
+
+# MINIMUM KIVÁLASZTÁS PZSEUDO KÓD:
+Fv MinKivalaszt(l:sorozat)
+  Output: egész
+Változók
+  i : egész
+  min : egész
+Algoritmus
+  min = l[0]
+  Ciklus i = 1 ... l.maxElem
+    Ha l[i] < min
+      min = l[i]
+    H.V.
+  C.V.
+  Szétválogat <- min
+Fvége
+  
+  
+  
   
       
